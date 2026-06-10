@@ -18,7 +18,7 @@ public class Menu {
                 } else if (opcao == 2) {
                     AlterarPet.alterarPet();
                 } else if (opcao == 3) {
-                    DeletarPet deletarPet;
+                    DeletarPet.deletarPet();
                 } else if (opcao == 4) {
                     ListarPet listarPet = new ListarPet();
                     listarPet.imprimirLista();
